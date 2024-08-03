@@ -281,11 +281,11 @@ main h2 {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
-
 .experience {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 20px;
 }
 
 .job {
@@ -303,6 +303,32 @@ main h2 {
     color: #61dafb;
     font-size: 1.1em;
 }
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.experience .job .title {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.experience .job .date {
+    font-size: 12px;
+    font-family: 'Georgia', serif;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.experience .job .description {
+    font-size: 14px;
+    font-family: 'Verdana', sans-serif;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
 
 .company-logo {
     width: 50px;
@@ -396,6 +422,17 @@ footer {
     .project-container {
         grid-template-columns: 1fr;
     }
+    .experience .job .title {
+        font-size: 14px;
+    }
+
+    .experience .job .date {
+        font-size: 10px;
+    }
+
+    .experience .job .description {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -419,5 +456,16 @@ footer {
 
     .project {
         padding: 15px;
+    }
+    .experience .job .title {
+        font-size: 12px;
+    }
+
+    .experience .job .date {
+        font-size: 8px;
+    }
+
+    .experience .job .description {
+        font-size: 10px;
     }
 }

@@ -1,22 +1,3 @@
-
-document.addEventListener('DOMContentLoaded', function() {
-    const projects = document.querySelectorAll('.project');
-
-    projects.forEach(project => {
-        // Initially hide all project details
-        const details = project.querySelector('.project-details');
-        details.style.display = 'none';
-
-        project.addEventListener('click', function() {
-            const details = project.querySelector('.project-details');
-            if (details.style.display === 'none') {
-                details.style.display = 'block';
-            } else {
-                details.style.display = 'none';
-            }
-        });
-    });
-});
 function toggleProjectDetails(projectId) {
     const projectDetails = document.getElementById(projectId);
     if (projectDetails.style.display === "none" || projectDetails.style.display === "") {
