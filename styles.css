@@ -74,7 +74,20 @@ main {
     align-items: center;
     gap: 5px;
 }
+.github-link {
+    color: #61dafb;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 10px; /* Space between icon and title */
+}
 
+.github-link:hover {
+    color: #fff;
+}
+
+.github-link i {
+    transition: color 0.3s ease;
+}
 .skills {
     margin-top: 20px;
 }
