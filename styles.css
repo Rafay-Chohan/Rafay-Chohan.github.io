@@ -483,3 +483,26 @@ footer {
         font-size: 10px;
     }
 }
+@media (max-width: 370px) {
+    .skills ul li {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .skills ul li .rating {
+        width: 70%;
+        top: auto;
+        right: auto;
+        transform: none;
+        margin-top: 10px;
+    }
+
+    .social-links {
+        width:80%;
+        height: 80%;
+    }
+
+    .project {
+        padding: 14px;
+    }
+}
