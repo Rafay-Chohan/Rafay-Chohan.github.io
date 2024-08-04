@@ -453,6 +453,11 @@ footer {
     .project {
         padding: 15px;
     }
+    aside {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid #61dafb;
+    }
     .experience .job .title {
         font-size: 12px;
     }
