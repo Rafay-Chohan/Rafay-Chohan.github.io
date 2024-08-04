@@ -145,6 +145,7 @@ main {
 }
 
 .social-links a {
+    display: flex;
     color: #61dafb;
     font-size: 2em;
     text-decoration: none;
