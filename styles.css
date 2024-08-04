@@ -452,12 +452,11 @@ footer {
 @media (max-width: 480px) {
     .skills ul li {
         flex-direction: column;
-        align-items: flex-start;
         padding: 15px;
     }
 
     .skills ul li .rating {
-        width: 100%;
+        width: 70%;
         top: auto;
         right: auto;
         transform: none;
@@ -465,7 +464,8 @@ footer {
     }
 
     .social-links {
-        flex-direction: column;
+        width:80%;
+        height: 80%;
     }
 
     .project {
