@@ -192,8 +192,8 @@ main h2 {
     max-width: 800px;
     position: relative;
     box-sizing: border-box;
+    
 }
-
 .popup-title {
     display: flex;
     align-items: center;
@@ -221,12 +221,17 @@ main h2 {
 }
 
 .popup img {
-    width: 100%;
+    width: 600px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
     margin-top: 10px;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+.popup-content img:hover {
+    transform: scale(1.1);
+}
 .close {
     position: absolute;
     top: 10px;
@@ -256,6 +261,15 @@ main h2 {
     .popup-date {
         font-size: 14px;
     }
+    .popup img {
+        width: 70%;
+        height: auto;
+        cursor: pointer;
+        transition: transform 0.3s;
+        margin-top: 10px;
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -273,11 +287,7 @@ main h2 {
     .popup-date {
         font-size: 15px;
     }
-}
-.project img {
-    width: 100%;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    
 }
 
 .project-details {
@@ -447,6 +457,15 @@ footer {
     .experience .job .description {
         font-size: 12px;
     }
+    .popup img {
+        width: 70%;
+        height: auto;
+        cursor: pointer;
+        transition: transform 0.3s;
+        margin-top: 10px;
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
 }
 
 @media (max-width: 480px) {
@@ -468,6 +487,15 @@ footer {
 
     .experience .job .description {
         font-size: 10px;
+    }
+    .popup img {
+        width: 70%;
+        height: auto;
+        cursor: pointer;
+        transition: transform 0.3s;
+        margin-top: 10px;
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 }
 
