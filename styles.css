@@ -274,7 +274,7 @@ main h2 {
 
 @media (min-width: 601px) and (max-width: 1024px) {
     .popup-content {
-        width: 85%;
+        width: 80%;
         margin: 12% auto;
         padding: 18px;
     }
