@@ -498,4 +498,15 @@ footer {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 }
+.project {
+  transition: all 0.3s ease;
+  border-left: 3px solid #61dafb;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  background-color: #3a3a3a;
+}
+
 
