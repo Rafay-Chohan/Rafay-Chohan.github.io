@@ -3,346 +3,611 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdul Rafay Chohan - Portfolio</title>
+    <title>Abdul Rafay Chohan | Game Developer &amp; Software Engineer</title>
+    <meta name="description" content="Abdul Rafay Chohan — Unity game developer and software engineer building casual & hyper-casual mobile games, VR experiences, and backend systems.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Abdul Rafay Chohan | Game Developer & Software Engineer">
+    <meta property="og:description" content="Unity game developer and software engineer building casual & hyper-casual mobile games, VR experiences, and backend systems.">
+    <meta property="og:image" content="images/profile.jpg">
+    <meta property="og:url" content="https://rafay-chohan.github.io/">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <aside>
-            <div class="profile">
-                <img src="images/profile.jpg" alt="Profile Picture" class="profile-picture">
-                <h1>Abdul Rafay Chohan</h1>
-                <p>Software Developer</p>
-                <p2>Lahore, Punjab, Pakistan</p2>
-                <div class="social-links">
-                    <a href="tel:+923163855583" class="social-link" title="Phone No"><i class="fas fa-phone"></i></a>
-                    <a href="mailto:abrkchohan@gmail.com" target="_blank" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/abdulrafaychohan" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/Rafay-Chohan" target="_blank" class="social-link" title="Github"><i class="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/rafay_chohan112/" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="assests/Resume.pdf" target="_blank" class="social-link" title="Resume"><i class="fas fa-download"></i></a>
+
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <header class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#top" class="nav-logo">ARC<span class="dot">.</span></a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact" class="nav-cta">Contact</a>
+            </nav>
+            <div class="nav-icons">
+                <a href="https://github.com/Rafay-Chohan" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/abdulrafaychohan" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="assests/Resume.pdf" target="_blank" title="Download Resume"><i class="fas fa-file-arrow-down"></i></a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="top">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-inner">
+                <p class="hero-eyebrow reveal">Game Developer — Lahore, Pakistan</p>
+                <h1 class="hero-title reveal">
+                    Abdul Rafay Chohan
+                </h1>
+                <p class="hero-tagline reveal">Building the systems behind mobile games — from core mechanics to the tools that power them.</p>
+                <p class="hero-subtitle reveal">
+                    Currently at <strong>Mindstorm Studios</strong>. Previously a Software Engineer at EIX, with
+                    additional experience in VR and machine learning.
+                </p>
+                <div class="core-stack reveal">
+                    <span class="pill pill-accent"><i class="fab fa-unity"></i> Unity</span>
+                    <span class="pill pill-accent"><i class="fas fa-code"></i> C#</span>
+                    <span class="pill pill-accent"><i class="fas fa-mobile-screen"></i> Mobile (iOS/Android)</span>
+                    <span class="pill pill-accent"><i class="fas fa-atom"></i> Physics &amp; Gameplay Systems</span>
+                    <span class="pill pill-accent"><i class="fas fa-vr-cardboard"></i> VR/XR</span>
+                    <span class="pill pill-accent"><i class="fab fa-java"></i> Java</span>
+                </div>
+                <div class="availability reveal">
+                    <span class="availability-dot"></span> Open to game development roles &amp; freelance projects
+                </div>
+                <div class="hero-actions reveal">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-gamepad"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-ghost">
+                        <i class="fas fa-paper-plane"></i> Get In Touch
+                    </a>
+                    <a href="assests/Resume.pdf" target="_blank" class="btn btn-ghost">
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                </div>
+                <div class="hero-stats reveal">
+                    <div class="stat">
+                        <span class="stat-num">2+</span>
+                        <span class="stat-label">Years in game development</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">Thousands</span>
+                        <span class="stat-label">Daily active users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">10+</span>
+                        <span class="stat-label">Shipped projects</span>
+                    </div>
                 </div>
             </div>
-            <div class="skills">
-                <h2>Technical Skills</h2>
-                <ul>
-                    <li><i class="fas fa-gamepad"></i> App Dev <div class="rating"><div class="rating-bar" style="width: 85%;"></div></div></li>
-                    <li><i class="fab fa-python"></i> Python <div class="rating"><div class="rating-bar" style="width: 70%;"></div></div></li>
-                    <li><i class="fab fa-java"></i> Java <div class="rating"><div class="rating-bar" style="width: 70%;"></div></div></li>
-                    <li><i class="fab fa-css3-alt"></i> CSS <div class="rating"><div class="rating-bar" style="width: 60%;"></div></div></li>
-                    <li><i class="fab fa-html5"></i> HTML <div class="rating"><div class="rating-bar" style="width: 70%;"></div></div></li>
-                    <li><i class="fas fa-database"></i> DB(SQL) <div class="rating"><div class="rating-bar" style="width: 70%;"></div></div></li>
-                    <li><i class="fab fa-cuttlefish"></i> C/C++ <div class="rating"><div class="rating-bar" style="width: 90%;"></div></div></li>
-                    <li><i class="fab fa-unity"></i> Unity <div class="rating"><div class="rating-bar" style="width: 80%;"></div></div></li>
-                    <li><i class="fas fa-code"></i> C# <div class="rating"><div class="rating-bar" style="width: 70%;"></div></div></li>
-                    <li><i class="fab fa-php"></i> PHP <div class="rating"><div class="rating-bar" style="width: 50%;"></div></div></li>
-                    <li><i class="fas fa-layer-group"></i> OOP <div class="rating"><div class="rating-bar" style="width: 80%;"></div></div></li>
-                    <li><i class="fas fa-tachometer-alt"></i> DSA <div class="rating"><div class="rating-bar" style="width: 80%;"></div></div></li>
-                </ul>
+            <a href="#about" class="scroll-cue" aria-label="Scroll down">
+                <span></span>
+            </a>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="section-inner about-grid">
+                <div class="about-photo reveal">
+                    <div class="photo-frame">
+                        <img src="images/profile.jpg" alt="Abdul Rafay Chohan">
+                    </div>
+                </div>
+                <div class="about-copy">
+                    <p class="section-eyebrow reveal">About</p>
+                    <h2 class="section-title reveal">Background</h2>
+                    <p class="reveal">
+                        I am an Associate Game Developer at <strong>Mindstorm Studios</strong>. I develop core gameplay
+                        mechanics, modular level and theme systems, and level-generation tools for casual and
+                        hyper-casual mobile games.
+                    </p>
+                    <p class="reveal">
+                        Before this, I worked as a Software Engineer at <strong>EIX</strong>, where I maintained Java
+                        microservices and deployed OTMM (OpenText Media Manager) solutions for enterprise clients. I
+                        have also worked on VR development and applied machine learning.
+                    </p>
+                    <p class="reveal">
+                        My primary stack is Unity and C#. I also work with Java for backend systems and Python for
+                        machine learning.
+                    </p>
+                    <div class="about-tags reveal">
+                        <span class="tag">Unity 2D/3D</span>
+                        <span class="tag">C# &amp; Gameplay Systems</span>
+                        <span class="tag">VR / XR (OpenXR)</span>
+                        <span class="tag">Physics-Based Gameplay</span>
+                        <span class="tag">Java Microservices</span>
+                        <span class="tag">Applied ML</span>
+                    </div>
+                </div>
             </div>
-        </aside>
-        <main>
-            <section>
-                <h2>Summary</h2>
-                <p>Computer Science Graduate. Currently, working as an Associate Game Developer at Mindstorm Studios. I have a strong passion for coding and solving real-world problems. I have hands-on experience with Python, ML, C++, Java, App Dev, Unity, PHP, HTML, CSS, and SQL, and I've enjoyed building a variety of projects in various domains like Virtual Reality,Android Games & Apps etc. I'm always eager to learn and grow, and I'm looking for opportunities where I can further develop my skills and make a meaningful impact.</p>
-            </section>
-            <section>
-                <h2>Experience</h2>
-                <div class="experience">
-                    <div class="job">
-                        <img src="images/mlabs.png" alt="M-Labs Logo" class="company-logo">
-                        <div>
-                            <p class="title"><strong>Associate Game Developer</strong><br>Mindstorm Studios</p>
-                            <p class="date">July 2025 - Present</p>
-                            <p class="description">Working as an Associate Game Developer, focusing on mobile game development using Unity and C#. Currently learning advanced Unity techniques and C# programming by working on varius projects</p>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section section-alt" id="experience">
+            <div class="section-inner">
+                <p class="section-eyebrow reveal">Career So Far</p>
+                <h2 class="section-title reveal">Experience</h2>
+
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">Jul 2025 — Present</span>
+                            <h3>Associate Game Developer</h3>
+                            <p class="timeline-org">Mindstorm Studios</p>
+                            <ul class="timeline-bullets">
+                                <li>Develop Android &amp; iOS casual and hyper-casual mobile games with thousands of daily active users</li>
+                                <li>Built core mechanics on studio titles including <strong>Arrow Out</strong> and <strong>Block Buster</strong></li>
+                                <li>Built solvers &amp; level-generation utilities that sped up scaling and cut level-design iteration time</li>
+                                <li>Developed modular level &amp; theme systems reused across multiple games</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span>Unity</span><span>C#</span><span>Mobile</span><span>Level Design Tooling</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="job">
-                        <img src="images/eix.png" alt="EIX Logo" class="company-logo">
-                        <div>
-                            <p class="title"><strong>Associate Software Engineer</strong><br>EIX (Enterprise Information Xperts)</p>
-                            <p class="description">In this position, I acquired experience in Java and OTMM services. Worked on various tasks related to DAM(Digital Asset Management) services.</p>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">Jan 2024 — Jul 2025</span>
+                            <h3>Associate Software Engineer</h3>
+                            <p class="timeline-org">EIX (Enterprise Information Xperts)</p>
+                            <ul class="timeline-bullets">
+                                <li>Debugged and enhanced Java microservices, improving system efficiency</li>
+                                <li>Contributed to Java-based backend services and OTMM (OpenText Media Manager) solutions</li>
+                                <li>Deployed &amp; configured OTMM services for enterprise clients</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span>Java</span><span>Microservices</span><span>OTMM</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="job">
-                        <img src="images/den.png" alt="Digital Empowerment Network Logo" class="company-logo">
-                        <div>
-                            <p class="title"><strong>Machine Learning Intern</strong><br>Digital Empowerment Network</p>
-                            <p class="date">Aug 2024 - Sept 2024 (1 month)</p>
-                            <p class="description">4-Week Internship with the main focus on Machine Learning (ML) and Python. Worked on Data cleaning & preprocessing, Feature engineering of Data and Model training and testing.</p>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">Aug 2024 — Sep 2024</span>
+                            <h3>Machine Learning Intern</h3>
+                            <p class="timeline-org">Digital Empowerment Network</p>
+                            <ul class="timeline-bullets">
+                                <li>Built machine learning models for a range of applied use cases</li>
+                                <li>Implemented data preprocessing, feature engineering &amp; model evaluation</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span>Python</span><span>ML</span><span>Data Preprocessing</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="job">
-                        <img src="images/mlabs.png" alt="M-Labs Logo" class="company-logo">
-                        <div>
-                            <p class="title"><strong>Game Dev Intern</strong><br>M-Labs</p>
-                            <p class="date">Jun 2024 - August 2024 (3 months)</p>
-                            <p class="description">Internship focusing mainly on Mobile Game Development using Unity and C#. Developed a mobile game in this period which used a lot of nostalgic mechanics from games like angry birds and ricochet kills bringing a fresh and new game for players to enjoy</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <h2>Projects</h2>
-                <div class="project-container">
-                    <!-- Project 1: VRhythm -->
-                    <div class="project" onclick="showPopup('popup1')">
-                        <h3>VRhythm (VR Music Learning Platform)</h3>
-                    </div>
-                    <div id="popup1" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup1')">&times;</span>
-                            <h3 class="popup-title">VRhythm (VR Music Learning Platform)<a href="" target="_blank" class="github-link"><i class="fab fa-github"></i></a></h3>
-                            <p class="popup-date">National University of Computer and Emerging Sciences</p>
-                            <p class="popup-description">
-                                VRhythm is an immersive VR application that revolutionizes music education by enabling users to learn and play musical instruments in a virtual environment using hand tracking and coaching, eliminating the need for expensive physical instruments.
-                                <br><br>
-                                <strong>Key Features:</strong>
-                                <ul>
-                                    <li>Instrument Simulation: Users interact with virtual instruments (initially piano) using hand gestures</li>
-                                    <li>Coaching: Real-time visual cues guide users on note sequences and timing</li>
-                                    <li>Performance Analytics: Tracks accuracy, progress, and suggests improvements</li>
-                                    <li>Song Library: Offers tutorials for popular songs across genres</li>
-                                </ul>
-                                <br>
-                                <strong>Technologies Used:</strong>
-                                <ul>
-                                    <li>Unity 3D (Primary development environment)</li>
-                                    <li>XR Interaction Toolkit (Hand tracking and VR interactions)</li>
-                                    <li>Meta Quest 2 VR headset</li>
-                                    <li>MIDI Toolkit (Processes musical notes for visual cues)</li>
-                                </ul>
-                                <br>
-                                The system follows a layered architecture with UI, Application Logic, Persistence, and Database layers, providing a complete solution for interactive music learning in VR.
-                            </p>
-                            <p class="popup-skills">
-                                <strong>Skills Acquired:</strong>
-                                <ul>
-                                    <li>VR Development with Unity</li>
-                                    <li>Hand Tracking Implementation</li>
-                                    <li>XR Interaction Design</li>
-                                    <li>Team Collaboration on Complex Projects</li>
-                                    <li>System Architecture Design</li>
-                                    <li>Music Processing in Digital Environments</li>
-                                </ul>
-                            </p>
-                            <!--
-                            <a href="images/vrhythm1.jpg" data-lightbox="project-images" data-title="VRhythm">
-                                <img src="images/vrhythm1.jpg" alt="VRhythm Screenshot 1"></a>
-                            <a href="images/vrhythm2.jpg" data-lightbox="project-images" data-title="VRhythm">
-                                <img src="images/vrhythm2.jpg" alt="VRhythm Screenshot 2"></a>
-                            <a href="images/vrhythm3.jpg" data-lightbox="project-images" data-title="VRhythm">
-                                <img src="images/vrhythm3.jpg" alt="VRhythm Screenshot 3"></a>-->
-                        </div>
-                    </div>
-                    <!-- Project 10: Artificial Intelligence (AI & ML) -->
-                    <div class="project" onclick="showPopup('popup10')">
-                        <h3>Artificial Intelligence (AI & ML)</h3>
-                    </div>
-                    <div id="popup10" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup10')">&times;</span>
-                            <h3 class="popup-title">Artificial Intelligence (AI & ML)<a href="https://github.com/Rafay-Chohan/Machine-Learning" target="_blank" class="github-link"><i class="fab fa-github"></i></a></h3>
-                            <p class="popup-date">Digital Empowerment Network<br>August 2024 - Sept 2024 (1 months)</p>
-                            <p class="popup-description">
-                                Worked on multiple machine learning projects, including: 
-                                <br><br>
-                                <strong>House Price Predictor:</strong> Developed a predictive model using Linear Regression to estimate housing prices, handling data preprocessing and feature scaling.
-                                <br><br>
-                                <strong>Spam/No Spam Classifier:</strong> Implemented classifiers using Naive Bayes and SVM for spam email detection, utilizing text tokenization, stopword removal, and TF-IDF vectorization.
-                                <br><br>
-                                <strong>Churn Predictor:</strong> Built a customer churn prediction model using Linear Regression and Random Forest, focusing on data cleaning and feature engineering.
-                                <br><br>
-                                <strong>CNN Image Classifier:</strong> Developed a basic CNN model with three convolutional layers to classify images from the CIFAR-10 dataset, applying data augmentation and regularization.
-                            </p>
-                            <p class="popup-skills">
-                                <strong>Skills Acquired:</strong>
-                                <ul>
-                                    <li>Data Preprocessing</li>
-                                    <li>Feature Engineering</li>
-                                    <li>Model Building (Linear Regression, Naive Bayes, SVM, Random Forest, CNN)</li>
-                                    <li>Text Processing</li>
-                                    <li>Image Classification</li>
-                                    <li>Model Optimization</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="project" onclick="showPopup('popup2')">
-                        <h3>LifeSync (Android App)</h3>
-                    </div>
-                    <div id="popup2" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup2')">&times;</span>
-                            <h3 class="popup-title">LifeSync (Android App)<a href="https://github.com/Rafay-Chohan/LifeSync" target="_blank" class="github-link"><i class="fab fa-github"></i></a></h3>
-                            <p class="popup-date">National University of Computer and Emerging Sciences<br>February 2024 - May 2024 (4 months)</p>
-                            <p class="popup-description">Designed an Android Application using Java. The app focuses on enhancing the quality of life, especially for people with ADHD, by providing features like:<br><b>Task Management:</b> with features like creating, assigning, and tracking them. Set deadlines, use priority levels to keep you organized and productive.<br><b>Budget Tracker:</b> Take control of your finances by tracking income, expenses, and savings goals.<br><b>Personal Journaling:</b> Capture your thoughts, feelings, and aspirations in a digital space.<br>The app also provides google user authentication and cloud backup so you can have your data on any device by just logging in to your account.</p>
-                            <p class="popup-skills">Skills Acquired: Java, Android Development</p>
-                            <a href="images/LifeSync Main.jpeg" data-lightbox="project-images" data-title="Project 1">
-                                <img src="images/LifeSync Main.jpeg" alt="LifeSync Screenshot 1"></a>
-                            <a href="images/LifeSync Modules Light.jpeg" data-lightbox="project-images" data-title="Project 1">
-                                <img src="images/LifeSync Modules Light.jpeg" alt="LifeSync Screenshot 2"></a>
-                            <a href="images/LifeSync Module Dark.jpeg" data-lightbox="project-images" data-title="Project 1">
-                                <img src="images/LifeSync Module Dark.jpeg" alt="LifeSync Screenshot 2"></a>
-                            <a href="images/LifeSync TM.jpeg" data-lightbox="project-images" data-title="Project 1">
-                                <img src="images/LifeSync TM.jpeg" alt="LifeSync Screenshot 2"></a> 
-                            <a href="images/LifeSync BT n Logs.jpeg" data-lightbox="project-images" data-title="Project 1">
-                                <img src="images/LifeSync BT n Logs.jpeg" alt="LifeSync Screenshot 2"></a>  
-                        </div>
-                        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-                    </div>
-                    
-                    
-                    <!-- Project 3: Arrow Rebound -->
-                    <div class="project" onclick="showPopup('popup3')">
-                        <h3>Arrow Rebound (Mobile Game)</h3>
-                    </div>
-                    <div id="popup3" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup3')">&times;</span>
-                            <h3 class="popup-title">Arrow Rebound (Mobile Game)<a href="https://github.com/zophiel27/Jame-Gam" target="_blank" class="github-link"><i class="fab fa-github"></i></a></h3>
-                            <p class="popup-description">Developed on Unity Engine using C#. A Hypercasual Unity mobile game based heavily on slingshot mechanics The game brings the fun of Archery and the twist of ricochet together in a 2D space to solve puzzles and clear objectives. Since Each level can be solved in different ways the game becomes rewarding for people who come up with out of the box solutions to solve levels.</p>
-                            <p class="popup-skills">Skills Acquired: Unity, C#</p>
-                            <a href="images/Arrow Rebound Lvl Demo.jpeg" data-lightbox="project-images" data-title="Project 4">
-                                <img src="images/Arrow Rebound Lvl Demo.jpeg" alt="Arrow Rebound Screenshot 1"></a>
-                            <a href="images/Arrow Rebound main.jpeg" data-lightbox="project-images" data-title="Project 4">
-                                <img src="images/Arrow Rebound main.jpeg" alt="Arrow Rebound Screenshot 1"></a>
-                            <a href="images/Arrow Rebound Lvls.jpeg" data-lightbox="project-images" data-title="Project 4">
-                                <img src="images/Arrow Rebound Lvls.jpeg" alt="Arrow Rebound Screenshot 1"></a>
-                        </div>
-                    </div>
-                    <!-- Project 4: Hyper Racing -->
-                    <div class="project" onclick="showPopup('popup4')">
-                        <h3>Hyper Racing (Mobile Game)</h3>
-                    </div>
-                    <div id="popup4" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup4')">&times;</span>
-                            <h3 class="popup-title">Hyper Racing (Mobile Game)<a href="https://github.com/Rafay-Chohan/Hyper-Racing" target="_blank" class="github-link"><i class="fab fa-github"></i></a></h3>
-                            <p class="popup-description">
-                                A fast-paced arcade-style mobile racing game that combines high-speed competition with power-up mechanics. Players race against AI opponents ("drivatars") on dynamic tracks, using boosts and projectiles to gain an edge. The game emphasizes accessibility, quick sessions, and progression through unlockable content.
-                            </p>
-                            <p class="popup-skills">Skills Acquired: Unity 3D, C#</p>
-                            <a href="images/HyperRacing1.jpeg" data-lightbox="project-images" data-title="Hyper Racing">
-                                <img src="images/HyperRacing1.jpeg" alt="Hyper Racing Screenshot 1"></a>
-                            <a href="images/HyperRacing2.jpeg" data-lightbox="project-images" data-title="Hyper Racing">
-                                <img src="images/HyperRacing2.jpeg" alt="Hyper Racing Screenshot 2"></a>
-                        </div>
-                    </div>
-                    <!-- Project 5: Tower of Pista -->
-                    <div class="project" onclick="showPopup('popup5')">
-                        <h3>Tower of Pista (Mobile Game)</h3>
-                    </div>
-                    <div id="popup5" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup5')">&times;</span>
-                            <h3 class="popup-title">Tower of Pista (Mobile Game)<a href="https://github.com/Rafay-Chohan/TowerOfPista" target="_blank" class="github-link"><i class="fab fa-github"></i></a></h3>
-                            <p class="popup-description">
-                                A 2D mobile game featuring procedural tower building mechanics designed as a hypercasual game with simple single mechanic. Players stack blocks to build the tallest tower possible while overcoming various challenges and obstacles.
-                            </p>
-                            <p class="popup-skills">Skills Acquired: Unity, C#</p>
-                            <a href="images/TowerOfPista1.jpeg" data-lightbox="project-images" data-title="Tower of Pista">
-                                <img src="images/TowerOfPista1.jpeg" alt="Tower of Pista Screenshot 1"></a>
-                            <a href="images/TowerOfPista2.jpeg" data-lightbox="project-images" data-title="Tower of Pista">
-                                <img src="images/TowerOfPista2.jpeg" alt="Tower of Pista Screenshot 2"></a>
-                        </div>
-                    </div>
-                    <!-- Project 6: 3x3 Puzzle -->
-                    <div class="project" onclick="showPopup('popup6')">
-                        <h3>3x3 Puzzle (Mobile Game)</h3>
-                    </div>
-                    <div id="popup6" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup6')">&times;</span>
-                            <h3 class="popup-title">3x3 Puzzle (Mobile Game)<a href="https://github.com/Rafay-Chohan/3x3-Puzzle-Android-App" target="_blank" class="github-link"><i class="fab fa-github"></i></a></h3>
-                            <p class="popup-description">
-                                A classic sliding puzzle game where players can use any image from their gallery, shuffle it, and then solve it by rearranging the tiles. The game offers a nostalgic and fun experience.
-                            </p>
-                            <p class="popup-skills">Skills Acquired: Java, Android Studio</p>
-                            <a href="images/3x3Puzzle1.jpeg" data-lightbox="project-images" data-title="3x3 Puzzle">
-                                <img src="images/3x3Puzzle1.jpeg" alt="3x3 Puzzle Screenshot 1"></a>
-                            <a href="images/3x3Puzzle2.jpeg" data-lightbox="project-images" data-title="3x3 Puzzle">
-                                <img src="images/3x3Puzzle2.jpeg" alt="3x3 Puzzle Screenshot 2"></a>
-                        </div>
-                    </div>
-                    
-                    <!-- Project 7: Console-based Games -->
-                    <div class="project" onclick="showPopup('popup7')">
-                        <h3>Space-shooter and Pac-Man (Console-based Games)</h3>
-                    </div>
-                    <div id="popup7" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup7')">&times;</span>
-                            <h3 class="popup-title">Space-shooter and Pac-Man (Console-based Games)<a href="https://github.com/Rafay-Chohan/SpaceShooter" target="_blank" class="github-link"><i class="fab fa-github"></i></a><a href="https://github.com/Rafay-Chohan/Pac-Man" target="_blank" class="github-link"><i class="fab fa-github"></i></a></h3>
-                            <p class="popup-description">Developed using C++ and SFML. These games strengthened my understanding of game development and complex problem-solving.</p>
-                            <p class="popup-skills">Skills Acquired: C++, SFML</p>
-                            <a href="images/pac-man1.jpg" data-lightbox="project-images" data-title="Project 5">
-                            <img src="images/pac-man1.jpg" alt="Pac-Man Screenshot"></a>
-                            <a href="images/pac-man2.png" data-lightbox="project-images" data-title="Project 5">
-                            <img src="images/pac-man2.png" alt="Pac-Man Screenshot"></a>
-                            <a href="images/spaceshooter1.png" data-lightbox="project-images" data-title="Project 5">
-                            <img src="images/spaceshooter1.png" alt="Space-shooter Screenshot"></a>
-                        </div>
-                    </div>
-                    <!-- Project 8: ArcEncrypt -->
-                    <div class="project" onclick="showPopup('popup8')">
-                        <h3>ArcEncrypt (Android App)</h3>
-                    </div>
-                    <div id="popup8" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup8')">&times;</span>
-                            <h3 class="popup-title">Arc Encrypt (Android App)<a href="https://github.com/Rafay-Chohan/Arc-Encrypt" target="_blank" class="github-link"><i class="fab fa-github"></i></a></h3>
-                            <p class="popup-description">Designed to encrypt and decrypt messages using a cipher algorithm.</p>
-                            <p class="popup-skills">Skills Acquired: Java, Encryption Algorithms</p>
-                            <a href="images/Arc Encryt.jpeg" data-lightbox="project-images" data-title="Project 5">
-                            <img src="images/Arc Encryt.jpeg" alt="ArcEncrypt Screenshot 1"></a>
-                        </div>
-                    </div>
-                    
-                    <!-- Project 9: Rescue Shelter Management System -->
-                    <div class="project" onclick="showPopup('popup9')">
-                        <h3>Rescue Shelter Management System (Web Dev)</h3>
-                    </div>
-                    <div id="popup9" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup9')">&times;</span>
-                            <h3 class="popup-title">Rescue Shelter Management System (Web Dev)<a href="https://github.com/Rafay-Chohan/AnimalShelterManagementSystem" target="_blank" class="github-link"><i class="fab fa-github"></i></a></h3>
-                            <p class="popup-date">National University of Computer and Emerging Sciences<br>Jan 2023 - May 2023 (5 months)</p>
-                            <p class="popup-description">Designed a management system for a rescue shelter using PHP, MySQL for backend, and HTML/CSS for frontend. The app includes features like: <b><br>Sign Up (Management/Public):</b></br>  Management and public will be registered along their respective bio’s<br><b>Log In (Management/Public):</b></br> Admin(Management) and users(public) will be able to login with valid credentials<br><b>Profile Management:</b></br> Option for both Admin(Management) and users(public) will be able to manage their profile<br><b>Adoption:</b></br> Here the Public can see which animals are up for adoption(Data would be taken from Database)<br><b>Foster:</b></br> Here the Public can see which animals are up for Foster (Data would be taken from Database)<br><b>Sponsor:</b></br> Here the Public can see which animals are up for Sponsor (Data would be taken from Database)<br><b>Report a case:</b></br> Here the public can report a case to our team then our team will handle the rescue<br><b>Portfolio:</b></br> Here the shelter can add their previously completed projects<br><b>Current Projects:</b></br> Here the Shelter upcoming Projects will be shown and people can chose to help by volunteering as well<br><b>Upcoming Events:</b></br> Here the upcoming Fundraising Events will be shown so the supporters can come and show their support<br><b>Register for Volunteer:</b></br> Here People can register for volunteering their contact info etc would be saved and so they will be contacted whenever a new volunteer cycle is about to start.</p>
-                            <p class="popup-skills">Skills Acquired: PHP, MySQL, HTML, CSS</p>
-                            <a href="images/rescue1.png" data-lightbox="project-images" data-title="Project 3">
-                            <img src="images/rescue1.png" alt="Rescue Shelter Screenshot 1"></a>
-                            <a href="images/rescue2.png" data-lightbox="project-images" data-title="Project 3">
-                            <img src="images/rescue2.png" alt="Rescue Shelter Screenshot 2"></a>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">Jun 2024 — Aug 2024</span>
+                            <h3>Game Development Intern</h3>
+                            <p class="timeline-org">M-Labs</p>
+                            <ul class="timeline-bullets">
+                                <li>Designed &amp; developed a mobile game in Unity &amp; C#, with mechanics inspired by Angry Birds and Ricochet Kills</li>
+                                <li>Optimized physics-based interactions and built custom mechanics to boost engagement</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span>Unity</span><span>C#</span><span>Physics</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section>
-                <h2>Education</h2>
-                <ol class="timeline-list">
-                    <li class="timeline-item">
-                      <h4 class="h4 timeline-item-title">Bachelors in Computer Science</h4>
-                      <span>National University of Computer and Emerging Sciences</span>
-                      <span>2021 - 2025</span>
-                    </li>
-        
-                    <li class="timeline-item">
-        
-                      <h4 class="h4 timeline-item-title">Intermediate, Pre-Engineering</h4>
-                      <span>PakTurk College</span>
-                      <span>2019 - 2021</span>
-                    </li>
-        
-                  </ol>
-                </section>
-        </main>
-    </div>
+            </div>
+        </section>
+
+        <!-- FEATURED PROJECTS -->
+        <section class="section" id="projects">
+            <div class="section-inner">
+                <p class="section-eyebrow reveal">Selected Work</p>
+                <h2 class="section-title reveal">Featured Projects</h2>
+                <p class="section-lead reveal">The projects I'm proudest of — spanning VR, mobile game mechanics, and
+                    physics-driven design.</p>
+
+                <div class="featured-grid">
+                    <!-- Featured 1: Arrow Rebound -->
+                    <article class="feature-card reveal" data-popup="popup3">
+                        <div class="feature-media">
+                            <img src="images/Arrow Rebound main.jpeg" alt="Arrow Rebound gameplay screenshot" loading="lazy">
+                        </div>
+                        <div class="feature-body">
+                            <div class="feature-tags"><span>Unity</span><span>C#</span><span>Physics2D</span></div>
+                            <h3>Arrow Rebound</h3>
+                            <p>A hyper-casual 2D physics game combining slingshot archery with ricochet puzzle-solving —
+                                custom collision logic and Rigidbody2D physics tuning across every level.</p>
+                            <span class="feature-link">Read case study <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </article>
+
+                    <!-- Featured 2: Hyper Racing -->
+                    <article class="feature-card reveal" data-popup="popup4">
+                        <div class="feature-media">
+                            <img src="images/HyperRacing1.jpeg" alt="Hyper Racing gameplay screenshot" loading="lazy">
+                        </div>
+                        <div class="feature-body">
+                            <div class="feature-tags"><span>Unity 3D</span><span>C#</span><span>AI Opponents</span></div>
+                            <h3>Hyper Racing</h3>
+                            <p>A fast-paced arcade racer with power-up mechanics inspired by "Blur," featuring AI
+                                "drivatar" opponents, dynamic tracks, and unlockable progression.</p>
+                            <span class="feature-link">Read case study <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </article>
+
+                    <!-- Featured 3: VRhythm -->
+                    <article class="feature-card reveal" data-popup="popup1">
+                        <div class="feature-media feature-media--placeholder">
+                            <i class="fas fa-vr-cardboard"></i>
+                            <span class="placeholder-label">VR Experience</span>
+                        </div>
+                        <div class="feature-body">
+                            <div class="feature-tags"><span>Unity 3D</span><span>XR Toolkit</span><span>VR</span></div>
+                            <h3>VRhythm</h3>
+                            <p>A VR music-learning app using hand tracking &amp; gesture recognition to teach musical
+                                instruments in an immersive 3D virtual space, guided by real-time visual cues.</p>
+                            <span class="feature-link">Read case study <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="section-eyebrow reveal more-work-label">More Work</p>
+                <div class="project-grid">
+                    <article class="mini-card reveal" data-popup="popup2">
+                        <div class="mini-icon"><i class="fas fa-mobile-screen"></i></div>
+                        <h4>LifeSync</h4>
+                        <p>Android productivity app for ADHD task management, budgeting &amp; journaling.</p>
+                    </article>
+                    <article class="mini-card reveal" data-popup="popup10">
+                        <div class="mini-icon"><i class="fas fa-brain"></i></div>
+                        <h4>AI &amp; ML Projects</h4>
+                        <p>House price prediction, spam classification, churn prediction, CNN image classifier.</p>
+                    </article>
+                    <article class="mini-card reveal" data-popup="popup5">
+                        <div class="mini-icon"><i class="fas fa-layer-group"></i></div>
+                        <h4>Tower of Pista</h4>
+                        <p>Hypercasual procedural tower-stacking game built with a single core mechanic.</p>
+                    </article>
+                    <article class="mini-card reveal" data-popup="popup6">
+                        <div class="mini-icon"><i class="fas fa-border-all"></i></div>
+                        <h4>3x3 Puzzle</h4>
+                        <p>Grid-based sliding puzzle using any photo from the player's gallery.</p>
+                    </article>
+                    <article class="mini-card reveal" data-popup="popup8">
+                        <div class="mini-icon"><i class="fas fa-lock"></i></div>
+                        <h4>Arc Encrypt</h4>
+                        <p>Android encryption app built on a custom coprime cipher algorithm.</p>
+                    </article>
+                    <article class="mini-card reveal" data-popup="popup7">
+                        <div class="mini-icon"><i class="fas fa-ghost"></i></div>
+                        <h4>Space Shooter &amp; Pac-Man</h4>
+                        <p>Console-based C++/SFML games built to sharpen core game-programming fundamentals.</p>
+                    </article>
+                    <article class="mini-card reveal" data-popup="popup9">
+                        <div class="mini-icon"><i class="fas fa-paw"></i></div>
+                        <h4>Rescue Shelter Management System</h4>
+                        <p>Full-stack PHP/MySQL platform for adoption, fostering, sponsorship &amp; volunteering.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section section-alt" id="skills">
+            <div class="section-inner">
+                <p class="section-eyebrow reveal">Toolbox</p>
+                <h2 class="section-title reveal">Skills &amp; Tools</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-group reveal">
+                        <h3><i class="fas fa-gamepad"></i> Game Development</h3>
+                        <div class="pill-row">
+                            <span class="pill">Unity (2D &amp; 3D)</span>
+                            <span class="pill">C#</span>
+                            <span class="pill">OpenXR</span>
+                            <span class="pill">Firebase</span>
+                            <span class="pill">Physics &amp; Gameplay Systems</span>
+                        </div>
+                    </div>
+                    <div class="skill-group reveal">
+                        <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                        <div class="pill-row">
+                            <span class="pill">C#</span>
+                            <span class="pill">C++</span>
+                            <span class="pill">Python</span>
+                            <span class="pill">Java</span>
+                            <span class="pill">PHP</span>
+                        </div>
+                    </div>
+                    <div class="skill-group reveal">
+                        <h3><i class="fas fa-robot"></i> Machine Learning &amp; AI</h3>
+                        <div class="pill-row">
+                            <span class="pill">Python</span>
+                            <span class="pill">TensorFlow</span>
+                            <span class="pill">CNNs</span>
+                            <span class="pill">NLP</span>
+                            <span class="pill">ANN</span>
+                            <span class="pill">Data Preprocessing</span>
+                        </div>
+                    </div>
+                    <div class="skill-group reveal">
+                        <h3><i class="fas fa-toolbox"></i> Tools &amp; Workflow</h3>
+                        <div class="pill-row">
+                            <span class="pill">Git</span>
+                            <span class="pill">GitHub</span>
+                            <span class="pill">Fork</span>
+                            <span class="pill">Asana</span>
+                            <span class="pill">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education reveal">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="edu-row">
+                        <div>
+                            <strong>B.Sc. in Computer Science</strong>
+                            <span>National University of Computer and Emerging Sciences · 2021 – 2025</span>
+                        </div>
+                        <div>
+                            <strong>Intermediate (Pre-Engineering)</strong>
+                            <span>PakTurk Maarif International Schools and Colleges · 2019 – 2021</span>
+                        </div>
+                    </div>
+                    <div class="award-row">
+                        <i class="fas fa-award"></i>
+                        <span><strong>Dean's List of Honor</strong> — National University of Computer and Emerging Sciences</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section" id="contact">
+            <div class="section-inner contact-inner">
+                <p class="section-eyebrow reveal">Let's Talk</p>
+                <h2 class="section-title reveal">Have a project, role, or idea in mind?</h2>
+                <p class="section-lead reveal">
+                    I'm open to game development roles, freelance/contract work, and collaborations on interactive
+                    projects. The fastest way to reach me is email — I usually reply within a day.
+                </p>
+                <div class="contact-actions reveal">
+                    <a href="mailto:abrkchohan@gmail.com" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> abrkchohan@gmail.com
+                    </a>
+                    <a href="tel:+923163855583" class="btn btn-ghost">
+                        <i class="fas fa-phone"></i> +92 316 3855583
+                    </a>
+                </div>
+                <div class="social-links reveal">
+                    <a href="https://www.linkedin.com/in/abdulrafaychohan" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Rafay-Chohan" target="_blank" rel="noopener" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/rafay_chohan112/" target="_blank" rel="noopener" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="assests/Resume.pdf" target="_blank" class="social-link" title="Resume"><i class="fas fa-file-download"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
     <footer>
-        <p>&copy; 2024 Abdul Rafay Chohan</p>
+        <p>&copy; 2026 Abdul Rafay Chohan. Built with vanilla HTML, CSS &amp; JS.</p>
     </footer>
+
+    <!-- ==================== PROJECT MODALS ==================== -->
+
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <span class="close" data-close>&times;</span>
+            <h3 class="popup-title">VRhythm (VR Music Learning Platform)</h3>
+            <p class="popup-date">National University of Computer and Emerging Sciences · Oct 2024 – Present</p>
+            <p class="popup-description">
+                VRhythm is an immersive VR application that reimagines music education, letting users learn and play
+                musical instruments in a virtual environment using hand tracking and real-time coaching — removing the
+                need for expensive physical instruments.
+            </p>
+            <p class="popup-description">
+                <strong>Key Features:</strong>
+            </p>
+            <ul class="popup-list">
+                <li>Instrument simulation: users interact with virtual instruments (starting with piano) via hand gestures</li>
+                <li>Real-time coaching with visual cues for note sequence &amp; timing</li>
+                <li>Performance analytics tracking accuracy, progress, and improvement suggestions</li>
+                <li>Song library with tutorials across genres</li>
+            </ul>
+            <p class="popup-skills"><strong>Technologies:</strong> Unity 3D, XR Interaction Toolkit, Meta Quest 2, MIDI Toolkit</p>
+            <p class="popup-skills"><strong>Skills Acquired:</strong> VR Development, Hand Tracking, XR Interaction Design, System Architecture, Team Collaboration</p>
+        </div>
+    </div>
+
+    <div id="popup10" class="popup">
+        <div class="popup-content">
+            <span class="close" data-close>&times;</span>
+            <h3 class="popup-title">Artificial Intelligence (AI &amp; ML)<a href="https://github.com/Rafay-Chohan/Machine-Learning" target="_blank" rel="noopener" class="github-link"><i class="fab fa-github"></i></a></h3>
+            <p class="popup-date">Digital Empowerment Network · Aug 2024 – Sep 2024</p>
+            <p class="popup-description">
+                Worked on multiple machine learning projects, including:
+            </p>
+            <ul class="popup-list">
+                <li><strong>House Price Predictor:</strong> Linear Regression model to estimate housing prices, with preprocessing &amp; feature scaling.</li>
+                <li><strong>Spam/No-Spam Classifier:</strong> Naive Bayes and SVM classifiers using tokenization, stopword removal, and TF-IDF vectorization.</li>
+                <li><strong>Churn Predictor:</strong> Linear Regression and Random Forest model with data cleaning and feature engineering.</li>
+                <li><strong>CNN Image Classifier:</strong> Three-layer CNN for CIFAR-10 classification with augmentation &amp; regularization.</li>
+            </ul>
+            <p class="popup-skills"><strong>Skills Acquired:</strong> Data Preprocessing, Feature Engineering, Model Building, Text Processing, Image Classification, Model Optimization</p>
+        </div>
+    </div>
+
+    <div id="popup2" class="popup">
+        <div class="popup-content">
+            <span class="close" data-close>&times;</span>
+            <h3 class="popup-title">LifeSync (Android App)<a href="https://github.com/Rafay-Chohan/LifeSync" target="_blank" rel="noopener" class="github-link"><i class="fab fa-github"></i></a></h3>
+            <p class="popup-date">National University of Computer and Emerging Sciences · Feb 2024 – May 2024</p>
+            <p class="popup-description">
+                An Android app built in Java to help individuals — especially those with ADHD — manage daily life:
+            </p>
+            <ul class="popup-list">
+                <li><strong>Task Management:</strong> create, assign, and track tasks with deadlines and priority levels</li>
+                <li><strong>Budget Tracker:</strong> track income, expenses, and savings goals</li>
+                <li><strong>Personal Journaling:</strong> a private digital space for thoughts and aspirations</li>
+                <li>Google authentication &amp; cloud backup for cross-device access</li>
+            </ul>
+            <p class="popup-skills"><strong>Skills Acquired:</strong> Java, Android Development</p>
+            <div class="popup-gallery">
+                <img src="images/LifeSync Main.jpeg" alt="LifeSync Screenshot 1" loading="lazy">
+                <img src="images/LifeSync Modules Light.jpeg" alt="LifeSync Screenshot 2" loading="lazy">
+                <img src="images/LifeSync Module Dark.jpeg" alt="LifeSync Screenshot 3" loading="lazy">
+                <img src="images/LifeSync TM.jpeg" alt="LifeSync Screenshot 4" loading="lazy">
+                <img src="images/LifeSync BT n Logs.jpeg" alt="LifeSync Screenshot 5" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <div id="popup3" class="popup">
+        <div class="popup-content">
+            <span class="close" data-close>&times;</span>
+            <h3 class="popup-title">Arrow Rebound (Mobile Game)<a href="https://github.com/zophiel27/Jame-Gam" target="_blank" rel="noopener" class="github-link"><i class="fab fa-github"></i></a></h3>
+            <p class="popup-date">Feb 2024 – May 2024</p>
+            <p class="popup-description">
+                Developed on Unity Engine using C#. A hyper-casual mobile game built around slingshot mechanics — the
+                fun of archery meets ricochet puzzle-solving in a 2D space. Every level can be solved multiple ways,
+                rewarding players who find out-of-the-box solutions.
+            </p>
+            <p class="popup-skills"><strong>Skills Acquired:</strong> Unity, C#, Rigidbody2D physics tuning, collision-based ricochet logic</p>
+            <div class="popup-gallery">
+                <img src="images/Arrow Rebound Lvl Demo.jpeg" alt="Arrow Rebound Screenshot 1" loading="lazy">
+                <img src="images/Arrow Rebound main.jpeg" alt="Arrow Rebound Screenshot 2" loading="lazy">
+                <img src="images/Arrow Rebound Lvls.jpeg" alt="Arrow Rebound Screenshot 3" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <div id="popup4" class="popup">
+        <div class="popup-content">
+            <span class="close" data-close>&times;</span>
+            <h3 class="popup-title">Hyper Racing (Mobile Game)<a href="https://github.com/Rafay-Chohan/Hyper-Racing" target="_blank" rel="noopener" class="github-link"><i class="fab fa-github"></i></a></h3>
+            <p class="popup-date">Feb 2024 – May 2024</p>
+            <p class="popup-description">
+                A fast-paced arcade-style mobile racing game combining high-speed competition with power-up mechanics
+                inspired by the classic PC game "Blur." Players race against AI "drivatar" opponents on dynamic tracks,
+                using boosts and projectiles for an edge. Built for accessibility, quick sessions, and progression
+                through unlockable content.
+            </p>
+            <p class="popup-skills"><strong>Skills Acquired:</strong> Unity 3D, C#</p>
+            <div class="popup-gallery">
+                <img src="images/HyperRacing1.jpeg" alt="Hyper Racing Screenshot 1" loading="lazy">
+                <img src="images/HyperRacing2.jpeg" alt="Hyper Racing Screenshot 2" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <div id="popup5" class="popup">
+        <div class="popup-content">
+            <span class="close" data-close>&times;</span>
+            <h3 class="popup-title">Tower of Pista (Mobile Game)<a href="https://github.com/Rafay-Chohan/TowerOfPista" target="_blank" rel="noopener" class="github-link"><i class="fab fa-github"></i></a></h3>
+            <p class="popup-description">
+                A 2D mobile game with procedural tower-building mechanics, designed as a hypercasual game around a
+                single simple core mechanic. Players stack blocks to build the tallest tower possible while
+                overcoming challenges and obstacles.
+            </p>
+            <p class="popup-skills"><strong>Skills Acquired:</strong> Unity, C#</p>
+            <div class="popup-gallery">
+                <img src="images/TowerOfPista1.jpeg" alt="Tower of Pista Screenshot 1" loading="lazy">
+                <img src="images/TowerOfPista2.jpeg" alt="Tower of Pista Screenshot 2" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <div id="popup6" class="popup">
+        <div class="popup-content">
+            <span class="close" data-close>&times;</span>
+            <h3 class="popup-title">3x3 Puzzle (Mobile Game)<a href="https://github.com/Rafay-Chohan/3x3-Puzzle-Android-App" target="_blank" rel="noopener" class="github-link"><i class="fab fa-github"></i></a></h3>
+            <p class="popup-description">
+                A classic grid-based sliding puzzle game where players can use any image from their gallery, shuffle
+                it, then solve it by rearranging tiles back into order — a nostalgic and fun experience.
+            </p>
+            <p class="popup-skills"><strong>Skills Acquired:</strong> Java, Android Studio</p>
+            <div class="popup-gallery">
+                <img src="images/3x3Puzzle1.jpeg" alt="3x3 Puzzle Screenshot 1" loading="lazy">
+                <img src="images/3x3Puzzle2.jpeg" alt="3x3 Puzzle Screenshot 2" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <div id="popup7" class="popup">
+        <div class="popup-content">
+            <span class="close" data-close>&times;</span>
+            <h3 class="popup-title">Space Shooter &amp; Pac-Man (Console-based Games)
+                <a href="https://github.com/Rafay-Chohan/SpaceShooter" target="_blank" rel="noopener" class="github-link"><i class="fab fa-github"></i></a>
+                <a href="https://github.com/Rafay-Chohan/Pac-Man" target="_blank" rel="noopener" class="github-link"><i class="fab fa-github"></i></a>
+            </h3>
+            <p class="popup-description">Developed using C++ and SFML. These console-based games strengthened my
+                understanding of game development fundamentals and complex problem-solving.</p>
+            <p class="popup-skills"><strong>Skills Acquired:</strong> C++, SFML</p>
+            <div class="popup-gallery">
+                <img src="images/pac-man1.jpg" alt="Pac-Man Screenshot" loading="lazy">
+                <img src="images/pac-man2.png" alt="Pac-Man Screenshot" loading="lazy">
+                <img src="images/spaceshooter1.png" alt="Space Shooter Screenshot" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <div id="popup8" class="popup">
+        <div class="popup-content">
+            <span class="close" data-close>&times;</span>
+            <h3 class="popup-title">Arc Encrypt (Android App)<a href="https://github.com/Rafay-Chohan/Arc-Encrypt" target="_blank" rel="noopener" class="github-link"><i class="fab fa-github"></i></a></h3>
+            <p class="popup-description">Privacy concerns in text messaging due to insecure communication channels
+                inspired this encryption-based app, built in Java using a custom coprime encryption algorithm.</p>
+            <p class="popup-skills"><strong>Skills Acquired:</strong> Java, Encryption Algorithms</p>
+            <div class="popup-gallery">
+                <img src="images/Arc Encryt.jpeg" alt="Arc Encrypt Screenshot" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <div id="popup9" class="popup">
+        <div class="popup-content">
+            <span class="close" data-close>&times;</span>
+            <h3 class="popup-title">Rescue Shelter Management System (Web Dev)<a href="https://github.com/Rafay-Chohan/AnimalShelterManagementSystem" target="_blank" rel="noopener" class="github-link"><i class="fab fa-github"></i></a></h3>
+            <p class="popup-date">National University of Computer and Emerging Sciences · Jan 2023 – May 2023</p>
+            <p class="popup-description">
+                A full management system for a rescue shelter, built with PHP &amp; MySQL on the backend and HTML/CSS
+                on the frontend, including:
+            </p>
+            <ul class="popup-list">
+                <li>Sign up &amp; login for both management and the public</li>
+                <li>Profile management for both roles</li>
+                <li>Adoption, foster, and sponsorship listings pulled from the database</li>
+                <li>Case reporting so the public can flag rescues for the team</li>
+                <li>Portfolio &amp; current-projects showcase for the shelter</li>
+                <li>Upcoming fundraising events and volunteer registration</li>
+            </ul>
+            <p class="popup-skills"><strong>Skills Acquired:</strong> PHP, MySQL, HTML, CSS</p>
+            <div class="popup-gallery">
+                <img src="images/rescue1.png" alt="Rescue Shelter Screenshot 1" loading="lazy">
+                <img src="images/rescue2.png" alt="Rescue Shelter Screenshot 2" loading="lazy">
+            </div>
+        </div>
+    </div>
+
     <script src="scripts.js"></script>
 </body>
 </html>
